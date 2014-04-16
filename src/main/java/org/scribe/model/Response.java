@@ -26,7 +26,7 @@ public class Response
   {
     try
     {
-      connection.connect();
+      //connection.connect();
       code = connection.getResponseCode();
       message = connection.getResponseMessage();
       headers = parseHeaders(connection);
