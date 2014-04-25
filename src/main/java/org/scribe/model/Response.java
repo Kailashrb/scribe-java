@@ -22,7 +22,7 @@ public class Response
   private InputStream stream;
   private Map<String, String> headers;
 
-  Response(HttpURLConnection connection) throws IOException
+  public Response(HttpURLConnection connection) throws IOException
   {
     try
     {
